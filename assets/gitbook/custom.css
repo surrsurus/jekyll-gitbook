@@ -285,3 +285,10 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     --c-danger-title: #c00;
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+/* Fix code blocks looking awful on light mode */
+.book .book-body .page-wrapper .page-inner section.normal code {
+    background: #fdf6e3 !important;
+    color: #657b83 !important;
+    border-color: #f8df9c !important;
+}
